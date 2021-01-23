@@ -55,7 +55,7 @@ This is done by checking the `major-mode' and the name."
                         (buffer-name buffer))))
 
 (defun browser-tab-switcher--get-browser-windows ()
-  "List all the (other) VTerm buffers.
+  "List all the (other) browser windows.
 
 List all the browser windows, if the current one is a browser window,
 exclude it."
